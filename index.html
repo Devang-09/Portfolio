@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Devang Angchekar — showcasing projects, skills, and resume.">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <iframe src="loading.html" frameborder="0" style="width:100%; height:100vh; border:none;"></iframe>
+  </div>
+
+  <nav class="sidebar">
+    <div class="logo">
+      <button class="btn_logo" onclick="toggleMenu()">
+        <img src="Images/Name_logo.png" loading="lazy" alt="Logo" class="hello" />
+      </button><br>
+      <ul class="nav-links" id="navLinks" style="display: none;">
+        <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+        <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+        <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <hr>
+    </div>
+  </nav>
+  </div><br id="home">
+  <h1>Welcome to my Portfolio</h1>
+  <div class="image-container">
+    <div class="hover_images">
+      <img src="images/devang.jpg" loading="lazy" alt="Devang" class="image1">
+    </div>
+  </div>
+  <p class="self">Hi, I'm DEVANG</p>
+  <p class="about">— a tech enthusiast</p>
+  <p class="about">“Having a strong interest in understanding how systems work — and sometimes break — which drives my interest in cybersecurity and development.”</p>
+  <div class="about-box reveal" id="about">
+    <h1 class="about reveal">👨‍💻 About Me</h1>
+    <section class="about-section reveal">
+      <p class="about_me reveal">Hello! I'm Devang Angchekar, a tech enthusiast who enjoys exploring the world of code and continuously learning new skills.</p>
+      <p class="about_me reveal">And I’m continuously learning and growing in the field of web development and cyber
+        security.
+      </p>
+      <p class="about_me reveal">In my free time, I love exploring new tech, contributing to open-source, and
+        experimenting
+        with different projects and learn programming.</p>
+    </section>
+  </div>
+  <div class="skills-section reveal" id="skills">
+    <h1 class="skills-title reveal">💻 My Skills</h1>
+    <div class="terminal-box reveal">
+      <p class="typed-skill reveal" id="typed-skill">Programming Languages: Python HTML CSS Java Database: SQL Other
+        Skills: Problem Solving Time Management Project Management Discipline</p>
+    </div>
+  </div>
+  <!-- Skills -->
+  <div class="about-skills reveal">
+    <div class="skills-section reveal">
+      <h3 class="content-title reveal">🛠️ Tools & Technologies</h3>
+
+
+      <div class="skill-category reveal">
+        <h4 class="skill-category-title reveal">🎨 Frontend</h4>
+        <div class="skills-grid reveal" id="frontendSkills">
+          <!-- Frontend skills will be loaded by JavaScript -->
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <h4 class="skill-category-title reveal">🛡️ Backend</h4>
+        <div class="skills-grid reveal" id="backendSkills">
+          <!-- Backend skills will be loaded by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <!-- Projects Section -->
+  <div class="section-box reveal" id="projects">
+    <h2 class="section-title reveal"><i class="fas fa-code"></i> Projects</h2>
+    <div class="projects-grid reveal">
+      <div class="project-item reveal">
+        <h1>Cloud based Inventory Management System</h1>
+        <!-- Project Card: Inventory System -->
+        <a href="https://github.com/Devang-09/Cloud-based-Inventory-Management-System" target="_blank"
+          class="project-card reveal">
+          <div class="project-item reveal">
+            <p class="reveal">
+              Technologies: Python, Tkinter, SQLite, AWS Services, Docker<br><br>
+              A Python desktop application that helps small businesses manage inventory efficiently with a clean,
+              interactive GUI.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="project-item reveal">
+        <h1>Portfolio Website</h1>
+        <div class="project-item reveal">
+          <a href="https://github.com/Devang-09/Portfolio">
+            <p class="Project reveal">A fully responsive and animated personal portfolio built using HTML, CSS, and
+              JavaScript, showcasing my projects,
+              skills, certificates, and contact details. <br><br>
+            </p>
+        </div>
+        </a>
+      </div>
+      <!-- Add more projects here -->
+    </div>
+  </div>
+
+  <!-- Certificates Section -->
+  <div class="cert-box reveal" id="certificates">
+    <h2 class="section-title reveal"><i class="fas fa-certificate"></i> Certificates</h2>
+    <ul class="certificate-list reveal">
+      <li clas="reveal" data-img="Pdf_Images/python.jpg">Python (Basic) – HackerRank</li>
+      <li class="reveal" data-img="Pdf_Images/Deloitte.jpg">Cyber Job Simulation – Deloitte</li>
+      <li class="reveal" data-img="Pdf_Images/Forage.jpg">Software Engineering Job Simulation – J.P.Morgan Chase & Co.
+        [Forage]</li>
+      <li class="reveal" data-img="Pdf_Images/Tata.jpg">Cybersecurity Analyst Job Simulation - TATA [Forage]</li>
+      <li class="reveal" data-img="Pdf_Images/NIIT Foundation.jpg">Program in Cyber Security - NIIT Foundation through
+        Skill India
+        Digital Hub</li>
+      <li data-img="Pdf_Images/Simplilearn.jpg">Transformer Models and BERT Model - Simplilearn</li>
+      <!-- Add more certificates -->
+    </ul>
+    <!-- Modal Popup -->
+    <div id="certModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="certImg">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <!-- ▾ RESUME ▾ -->
+  <div class="resume-box reveal" id="resume">
+    <h2 class="resume-title reveal"><i class="fas fa-file-alt"></i> Resume</h2>
+    <div class="resume-actions reveal">
+      <a href="resume.html" target="_blank" class="resume-btn view-btn">
+        <i class="fas fa-eye reveal"></i> View Resume
+      </a>
+      <a href="resume.pdf" download class="resume-btn download-btn" onclick="openResume()">
+        <i class="fas fa-download reveal"></i> Download Resume
+      </a>
+    </div>
+  </div>
+
+  <!-- ▾ CONTACT ▾ -->
+  <div class="contact-section reveal" id="contact">
+    <h3 class="contact-title reveal"></i>📞 Contact Me</h3>
+
+    <!-- simple info block — replace with your real data -->
+    <div class="contact-info reveal">
+      <p class="reveal"><i class="fas fa-user reveal"></i> Devang Angchekar</p>
+      <p class="reveal"><a class="mail reveal" href="mailto:devangangchekar2004@gmail.com">📧
+          devangangchekar2004@gmail.com</a></p>
+      <p class="reveal"><i class="fas fa-phone reveal"></i> +91 72086 70323</p>
+    </div>
+
+    <!-- optional tiny message form -->
+    <form class="contact-form reveal" action="https://formspree.io/f/myzjvbyl" method="POST">
+      <input class="reveal" type="text" name="name" placeholder="Your Name" required>
+      <input class="reveal" type="email" name="email" placeholder="Your Email" required>
+      <textarea class="reveal" name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button class="reveal" type="submit"><i class="fas fa-paper-plane reveal"></i> Send Message</button>
+    </form>
+  </div>
+
+  <!-- Secret Terminal Fun Section -->
+  <div id="secretTerminal" class="hidden-terminal" aria-hidden="true">
+    <pre id="terminalOutput">
+Welcome to Devang's Secret CLI 👨‍💻
+Type a command: help, about, contact
+
+> _
+  </pre>
+    <input type="text" id="terminalInput" placeholder="Type here..." autofocus>
+  </div>
+
+
+  <!--Hacker Mode Terminal  (Fake Terminal Overlay (Typing Output)-->
+  <!--
+<div id="terminal" style="
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.7);
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 200px;
+  overflow: auto;
+  border-radius: 8px;
+  display: none;
+  z-index: 10;
+  box-shadow: 0 0 10px #00ff00;">
+  <div id="terminal-output">Initializing Hacker Mode...</div>
+</div>
+<script>
+const terminal = document.getElementById('terminal');
+const output = document.getElementById('terminal-output');
+const lines = [
+  'Connecting to secure server...',
+  'Bypassing firewall...',
+  'Accessing portfolio résumé...',
+  'Decryption complete...',
+  'Hack mode: ACTIVE'
+];
+let index = 0;
+function typeLine() {
+  if (index < lines.length) {
+    output.innerHTML += `<br>> ${lines[index++]}`;
+    terminal.scrollTop = terminal.scrollHeight;
+    setTimeout(typeLine, 800);
+  }
+}
+</script>
+-->
+  <!--Add Hacker Mode Toggle Button-->
+  <!--
+<button id="hacker-toggle" style="
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 20;
+  padding: 10px 15px;
+  background-color: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #00ff00;
+">
+  💾 Hacker Mode
+</button>
+<script>
+  document.getElementById('hacker-toggle').addEventListener('click', () => {
+  terminal.style.display = 'block';
+  typeLine();
+});
+</script>
+-->
+  <!----hacker mode End--->
+
+
+  <script defer src="script.js"></script>
+</body>
+
+<!--Footer-Section-->
+<footer class="site-footer">
+  <div class="footer-wave">
+    <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+      <path d="M0,100 C300,200 900,0 1200,100 L1200,200 L0,200 Z" fill="url(#footerGradient)" />
+
+    </svg>
+  </div>
+
+  <div class="footer-content">
+    <div class="footer-socials">
+      <a href="https://github.com/Devang-09" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/devang-angchekar-3583a02b9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com/_https_devang_" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:devangangchekar2004@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <p class="footer-credit">© 2025 Devang Angchekar. All rights reserved.</p>
+  </div>
+  <button id="secretBtn"
+    style="position:fixed;top:10px;right:10px;background:black;color:white;padding:5px 10px;border-radius:10px;">👨‍💻
+    Terminal</button>
+
+</footer>
+
+</html>
