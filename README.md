@@ -114,7 +114,7 @@ Press ` Ctrl + ~`  or click the 🧑‍💻Terminal button to open the terminal.
 ---
 
 ## 📜 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://github.com/Devang-09/Portfolio/blob/main/LICENSE).
 
 ---
 
