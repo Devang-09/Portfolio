@@ -1,6 +1,11 @@
 ## 💻 Devang Angchekar – Personal Portfolio
 
 Welcome to my interactive and responsive portfolio website built using **HTML, CSS, JavaScript**, and animated using **Canvas and DOM effects**. This project showcases my **skills**, **projects**, **certifications**, **résumé**, and includes a hidden **CLI-style terminal** as a fun Easter egg.
+---
+
+🔗 **[Live Preview](https://devang09.vercel.app/)**  
+
+---
 
 <img width="1365" height="599" alt="screenshot" src="https://github.com/user-attachments/assets/bff9c153-afd7-4bd9-aa39-bdca32906149" />
 
